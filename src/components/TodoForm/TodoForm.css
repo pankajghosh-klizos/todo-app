@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  font: inherit;
+  padding-inline: 20px;
+}

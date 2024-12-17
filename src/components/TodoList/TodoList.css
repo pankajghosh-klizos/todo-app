@@ -1,0 +1,36 @@
+.todo-list {
+  padding-left: 0;
+}
+
+.todo-item {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(61, 61, 61);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn-grp {
+  display: flex;
+  gap: 6px;
+}
+
+.edited-field {
+  border: none;
+  font: inherit;
+  height: max-content;
+  background: none;
+}
+
+.edited-field:focus {
+  background: none;
+  outline: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
